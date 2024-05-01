@@ -20,6 +20,9 @@
 !tests/
 !tests/*
 
+!tools/
+!tools/*
+
 !vcr/
 !vcr/*
 

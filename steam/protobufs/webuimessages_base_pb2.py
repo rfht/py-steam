@@ -12,8 +12,8 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import enums_pb2 as enums__pb2
-import steammessages_base_pb2 as steammessages__base__pb2
+import steam.protobufs.enums_pb2 as enums__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
 from google.protobuf import descriptor_pb2 as google_dot_protobuf_dot_descriptor__pb2
 
 

@@ -12,8 +12,8 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import steammessages_base_pb2 as steammessages__base__pb2
-from steammessages_unified_base import steamclient_pb2 as steammessages__unified__base_dot_steamclient__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
+from steam.protobufs.steammessages_unified_base import steamclient_pb2 as steammessages__unified__base_dot_steamclient__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n&steammessages_market.steamclient.proto\x1a\x18steammessages_base.proto\x1a,steammessages_unified_base.steamclient.proto\"=\n(CEconMarket_IsMarketplaceAllowed_Request\x12\x11\n\twebcookie\x18\x01 \x01(\t\"\xe6\x01\n)CEconMarket_IsMarketplaceAllowed_Response\x12\x0f\n\x07\x61llowed\x18\x01 \x01(\x08\x12\x0e\n\x06reason\x18\x02 \x01(\r\x12\x17\n\x0f\x61llowed_at_time\x18\x03 \x01(\r\x12 \n\x18steamguard_required_days\x18\x04 \x01(\r\x12\x17\n\x0f\x66orms_requested\x18\x07 \x01(\x08\x12\"\n\x1a\x66orms_require_verification\x18\x08 \x01(\x08\x12 \n\x18new_device_cooldown_days\x18\t \x01(\r2{\n\nEconMarket\x12m\n\x14IsMarketplaceAllowed\x12).CEconMarket_IsMarketplaceAllowed_Request\x1a*.CEconMarket_IsMarketplaceAllowed_ResponseB\x03\x80\x01\x01')

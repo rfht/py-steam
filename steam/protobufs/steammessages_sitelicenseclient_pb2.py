@@ -12,7 +12,7 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import steammessages_base_pb2 as steammessages__base__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n%steammessages_sitelicenseclient.proto\x1a\x18steammessages_base.proto\"Z\n\x12\x43MsgClientSiteInfo\x12\x0f\n\x07site_id\x18\x01 \x01(\x04\x12\x11\n\tsite_name\x18\x02 \x01(\t\x12 \n\x18\x61llow_cached_credentials\x18\x03 \x01(\x08\".\n\x1d\x43MsgClientSiteLicenseCheckout\x12\r\n\x05\x61ppid\x18\x01 \x01(\r\";\n%CMsgClientSiteLicenseCheckoutResponse\x12\x12\n\x07\x65result\x18\x01 \x01(\x05:\x01\x32\"7\n&CMsgClientSiteLicenseGetAvailableSeats\x12\r\n\x05\x61ppid\x18\x01 \x01(\r\"S\n.CMsgClientSiteLicenseGetAvailableSeatsResponse\x12\x12\n\x07\x65result\x18\x01 \x01(\x05:\x01\x32\x12\r\n\x05seats\x18\x02 \x01(\r\"*\n(CMsgClientSiteLicenseGetContentCacheInfo\"\x97\x01\n0CMsgClientSiteLicenseGetContentCacheInfoResponse\x12\x11\n\tuse_cache\x18\x01 \x01(\x08\x12\x14\n\x0cipv4_address\x18\x02 \x01(\r\x12\x13\n\x0bport_number\x18\x03 \x01(\r\x12\x11\n\tp2p_group\x18\x04 \x01(\r\x12\x12\n\nip_address\x18\x05 \x01(\tB\x05H\x01\x80\x01\x00')

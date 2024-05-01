@@ -12,8 +12,8 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import steammessages_base_pb2 as steammessages__base__pb2
-import webuimessages_base_pb2 as webuimessages__base__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
+import steam.protobufs.webuimessages_base_pb2 as webuimessages__base__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dwebuimessages_gamenotes.proto\x1a\x18steammessages_base.proto\x1a\x18webuimessages_base.proto\"V\n\x1e\x43GameNotes_UploadImage_Request\x12\x13\n\x0b\x66ile_prefix\x18\x01 \x01(\t\x12\x11\n\tmime_type\x18\x02 \x01(\t\x12\x0c\n\x04\x64\x61ta\x18\x03 \x01(\x0c\"3\n\x1f\x43GameNotes_UploadImage_Response\x12\x10\n\x08\x66ilename\x18\x01 \x01(\t2c\n\tGameNotes\x12P\n\x0bUploadImage\x12\x1f.CGameNotes_UploadImage_Request\x1a .CGameNotes_UploadImage_Response\x1a\x04\x80\x97\"\x01\x42\x05H\x01\x80\x01\x01')

@@ -12,8 +12,8 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import steammessages_base_pb2 as steammessages__base__pb2
-import webuimessages_base_pb2 as webuimessages__base__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
+import steam.protobufs.webuimessages_base_pb2 as webuimessages__base__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n webuimessages_achievements.proto\x1a\x18steammessages_base.proto\x1a\x18webuimessages_base.proto\"/\n\x1d\x43\x41\x63hievements_GetInfo_Request\x12\x0e\n\x06gameid\x18\x01 \x01(\x04\"\xf0\x01\n\x1e\x43\x41\x63hievements_GetInfo_Response\x12:\n\x0c\x61\x63hievements\x18\x01 \x03(\x0b\x32$.CAchievements_GetInfo_Response.Info\x1a\x91\x01\n\x04Info\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x0c\n\x04\x64\x65sc\x18\x03 \x01(\t\x12\x1a\n\x12image_url_achieved\x18\x04 \x01(\t\x12\x1e\n\x16image_url_not_achieved\x18\x05 \x01(\t\x12\x10\n\x08\x61\x63hieved\x18\x06 \x01(\x08\x12\x13\n\x0bunlock_time\x18\x07 \x01(\r2`\n\x0c\x41\x63hievements\x12J\n\x07GetInfo\x12\x1e.CAchievements_GetInfo_Request\x1a\x1f.CAchievements_GetInfo_Response\x1a\x04\x80\x97\"\x02\x42\x05H\x01\x80\x01\x01')

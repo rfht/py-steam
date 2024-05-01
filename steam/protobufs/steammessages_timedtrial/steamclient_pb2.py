@@ -12,8 +12,8 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import steammessages_base_pb2 as steammessages__base__pb2
-from steammessages_unified_base import steamclient_pb2 as steammessages__unified__base_dot_steamclient__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
+from steam.protobufs.steammessages_unified_base import steamclient_pb2 as steammessages__unified__base_dot_steamclient__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n*steammessages_timedtrial.steamclient.proto\x1a\x18steammessages_base.proto\x1a,steammessages_unified_base.steamclient.proto\"5\n$CTimedTrial_GetTimeRemaining_Request\x12\r\n\x05\x61ppid\x18\x01 \x01(\r\"\x84\x01\n%CTimedTrial_GetTimeRemaining_Response\x12\x16\n\x0eseconds_played\x18\x01 \x01(\r\x12\x17\n\x0fseconds_allowed\x18\x02 \x01(\r\x12\x11\n\tpackageid\x18\x03 \x01(\r\x12\x17\n\x0fmastersub_appid\x18\x04 \x01(\r\"K\n\"CTimedTrial_RecordPlaytime_Request\x12\r\n\x05\x61ppid\x18\x01 \x01(\r\x12\x16\n\x0eseconds_played\x18\x02 \x01(\r\"V\n#CTimedTrial_RecordPlaytime_Response\x12\x16\n\x0eseconds_played\x18\x01 \x01(\r\x12\x17\n\x0fseconds_allowed\x18\x02 \x01(\r\"2\n!CTimedTrial_ResetPlaytime_Request\x12\r\n\x05\x61ppid\x18\x01 \x01(\r\"U\n\"CTimedTrial_ResetPlaytime_Response\x12\x16\n\x0eseconds_played\x18\x01 \x01(\r\x12\x17\n\x0fseconds_allowed\x18\x02 \x01(\r2\xa6\x02\n\nTimedTrial\x12\x61\n\x10GetTimeRemaining\x12%.CTimedTrial_GetTimeRemaining_Request\x1a&.CTimedTrial_GetTimeRemaining_Response\x12[\n\x0eRecordPlaytime\x12#.CTimedTrial_RecordPlaytime_Request\x1a$.CTimedTrial_RecordPlaytime_Response\x12X\n\rResetPlaytime\x12\".CTimedTrial_ResetPlaytime_Request\x1a#.CTimedTrial_ResetPlaytime_ResponseB\x03\x80\x01\x01')

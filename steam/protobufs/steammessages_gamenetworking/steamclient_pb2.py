@@ -12,8 +12,8 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import steammessages_base_pb2 as steammessages__base__pb2
-from steammessages_unified_base import steamclient_pb2 as steammessages__unified__base_dot_steamclient__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
+from steam.protobufs.steammessages_unified_base import steamclient_pb2 as steammessages__unified__base_dot_steamclient__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n.steammessages_gamenetworking.steamclient.proto\x1a\x18steammessages_base.proto\x1a,steammessages_unified_base.steamclient.proto\"P\n&CGameNetworking_AllocateFakeIP_Request\x12\x0e\n\x06\x61pp_id\x18\x01 \x01(\r\x12\x16\n\x0enum_fake_ports\x18\x02 \x01(\r\"N\n\'CGameNetworking_AllocateFakeIP_Response\x12\x0f\n\x07\x66\x61ke_ip\x18\x01 \x01(\x07\x12\x12\n\nfake_ports\x18\x02 \x03(\r\"a\n*CGameNetworking_ReleaseFakeIP_Notification\x12\x0e\n\x06\x61pp_id\x18\x01 \x01(\r\x12\x0f\n\x07\x66\x61ke_ip\x18\x02 \x01(\x07\x12\x12\n\nfake_ports\x18\x03 \x03(\r2\xc6\x01\n\x0eGameNetworking\x12\x63\n\x0e\x41llocateFakeIP\x12\'.CGameNetworking_AllocateFakeIP_Request\x1a(.CGameNetworking_AllocateFakeIP_Response\x12O\n\x13NotifyReleaseFakeIP\x12+.CGameNetworking_ReleaseFakeIP_Notification\x1a\x0b.NoResponseB\x03\x80\x01\x01')

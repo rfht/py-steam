@@ -12,8 +12,8 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import steammessages_base_pb2 as steammessages__base__pb2
-from steammessages_unified_base import steamclient_pb2 as steammessages__unified__base_dot_steamclient__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
+from steam.protobufs.steammessages_unified_base import steamclient_pb2 as steammessages__unified__base_dot_steamclient__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n,steammessages_unified_test.steamclient.proto\x1a\x18steammessages_base.proto\x1a,steammessages_unified_base.steamclient.proto\"5\n CMsgTest_MessageToClient_Request\x12\x11\n\tsome_text\x18\x01 \x01(\t\"6\n!CMsgTest_MessageToClient_Response\x12\x11\n\tsome_text\x18\x01 \x01(\t\"7\n\"CMsgTest_NotifyClient_Notification\x12\x11\n\tsome_text\x18\x01 \x01(\t\"5\n CMsgTest_MessageToServer_Request\x12\x11\n\tsome_text\x18\x01 \x01(\t\"6\n!CMsgTest_MessageToServer_Response\x12\x11\n\tsome_text\x18\x01 \x01(\t\"7\n\"CMsgTest_NotifyServer_Notification\x12\x11\n\tsome_text\x18\x01 \x01(\t\"\x19\n\x17\x43MsgTest_NoBody_Request\"1\n\x1c\x43MsgTest_CallClient_Response\x12\x11\n\ttestvalue\x18\x01 \x01(\x05\x32\xb3\x01\n\x0fTestSteamClient\x12X\n\x0fMessageToClient\x12!.CMsgTest_MessageToClient_Request\x1a\".CMsgTest_MessageToClient_Response\x12@\n\x0cNotifyClient\x12#.CMsgTest_NotifyClient_Notification\x1a\x0b.NoResponse\x1a\x04\xc0\xb5\x18\x02\x32\xb2\x01\n\x14TestServerFromClient\x12X\n\x0fMessageToServer\x12!.CMsgTest_MessageToServer_Request\x1a\".CMsgTest_MessageToServer_Response\x12@\n\x0cNotifyServer\x12#.CMsgTest_NotifyServer_Notification\x1a\x0b.NoResponse2^\n\x15TestExternalPrivilege\x12\x45\n\nCallClient\x12\x18.CMsgTest_NoBody_Request\x1a\x1d.CMsgTest_CallClient_ResponseB\x03\x80\x01\x01')

@@ -12,8 +12,8 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import steammessages_base_pb2 as steammessages__base__pb2
-import webuimessages_base_pb2 as webuimessages__base__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
+import steam.protobufs.webuimessages_base_pb2 as webuimessages__base__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n!webuimessages_systemmanager.proto\x1a\x18steammessages_base.proto\x1a\x18webuimessages_base.proto\"\"\n CSystemManager_Hibernate_Request\"#\n!CSystemManager_Hibernate_Response2i\n\rSystemManager\x12R\n\tHibernate\x12!.CSystemManager_Hibernate_Request\x1a\".CSystemManager_Hibernate_Response\x1a\x04\x80\x97\"\x02\x42\x05H\x01\x80\x01\x01')

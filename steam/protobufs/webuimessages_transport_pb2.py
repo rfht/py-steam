@@ -12,8 +12,8 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import steammessages_base_pb2 as steammessages__base__pb2
-import webuimessages_base_pb2 as webuimessages__base__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
+import steam.protobufs.webuimessages_base_pb2 as webuimessages__base__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\x1dwebuimessages_transport.proto\x1a\x18steammessages_base.proto\x1a\x18webuimessages_base.proto\"7\n#CTransportAuth_Authenticate_Request\x12\x10\n\x08\x61uth_key\x18\x01 \x01(\t\"&\n$CTransportAuth_Authenticate_Response\"+\n)CTransportAuth_StartShutdown_Notification2\xc7\x01\n\rTransportAuth\x12[\n\x0c\x41uthenticate\x12$.CTransportAuth_Authenticate_Request\x1a%.CTransportAuth_Authenticate_Response\x12S\n\x13NotifyStartShutdown\x12*.CTransportAuth_StartShutdown_Notification\x1a\x10.WebUINoResponse\x1a\x04\x80\x97\"\x03\x42\x05H\x01\x80\x01\x01')

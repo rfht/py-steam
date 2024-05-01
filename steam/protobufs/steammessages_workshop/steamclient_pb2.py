@@ -12,8 +12,8 @@ from google.protobuf.internal import builder as _builder
 _sym_db = _symbol_database.Default()
 
 
-import steammessages_base_pb2 as steammessages__base__pb2
-from steammessages_unified_base import steamclient_pb2 as steammessages__unified__base_dot_steamclient__pb2
+import steam.protobufs.steammessages_base_pb2 as steammessages__base__pb2
+from steam.protobufs.steammessages_unified_base import steamclient_pb2 as steammessages__unified__base_dot_steamclient__pb2
 
 
 DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n(steammessages_workshop.steamclient.proto\x1a\x18steammessages_base.proto\x1a,steammessages_unified_base.steamclient.proto\"0\n\x1f\x43Workshop_GetEULAStatus_Request\x12\r\n\x05\x61ppid\x18\x01 \x01(\r\"u\n CWorkshop_GetEULAStatus_Response\x12\x0f\n\x07version\x18\x01 \x01(\r\x12\x18\n\x10timestamp_action\x18\x02 \x01(\r\x12\x10\n\x08\x61\x63\x63\x65pted\x18\x03 \x01(\x08\x12\x14\n\x0cneeds_action\x18\x04 \x01(\x08\x32`\n\x08Workshop\x12T\n\rGetEULAStatus\x12 .CWorkshop_GetEULAStatus_Request\x1a!.CWorkshop_GetEULAStatus_ResponseB\x03\x80\x01\x01')
